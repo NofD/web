@@ -1,2 +1,1 @@
-# web
-coursera
+*Assignment for Coursera*
