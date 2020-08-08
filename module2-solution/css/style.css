@@ -5,9 +5,9 @@
   margin: 0;
   padding: 0;
 }
-body{
-    padding: 0% 2.22% 0% 2.22%;
-    background-color: antiquewhite;
+body {
+  padding: 0% 2.22% 0% 2.22%;
+  background-color: antiquewhite;
 }
 
 h1 {
@@ -18,36 +18,36 @@ h1 {
 }
 
 p {
-    border: 1px solid black;
-    width: 30%;
-    height: 10%;
-    text-align: center;
-    font-size: 125%;
-    margin-bottom: 1.7%;
-    font-weight: bold;
+  border: 1px solid black;
+  width: 30%;
+  height: 10%;
+  text-align: center;
+  font-size: 125%;
+  margin-bottom: 1.7%;
+  font-weight: bold;
 }
 
 div {
-    background-color: gainsboro;
-    margin-bottom: 2.22%;
-    font-size: 100%;
+  background-color: gainsboro;
+  margin-bottom: 2.22%;
+  font-size: 100%;
 }
 
 .row {
-    width: 100%;
+  width: 100%;
 }
 
 #chicken > p {
-    background-color: peru;
+  background-color: peru;
 }
 
 #beef > p {
-    background-color: brown;
-    color: burlywood;
+  background-color: brown;
+  color: burlywood;
 }
 
 #sushi > p {
-    background-color: salmon;
+  background-color: salmon;
 }
 /********** Large devices only **********/
 @media (min-width: 992px) {
@@ -62,14 +62,16 @@ div {
     left: 73.5%;
   }
 
-  #chicken, #beef {
+  #chicken,
+  #beef {
     margin-right: 2%;
   }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .md-2, .md-1 {
+  .md-2,
+  .md-1 {
     float: left;
     border: 1px solid black;
     padding: 0% 1% 1% 1%;
@@ -80,7 +82,8 @@ div {
   .md-1 {
     width: 100%;
   }
-  #chicken > p, #beef > p {
+  #chicken > p,
+  #beef > p {
     position: relative;
     left: 72.5%;
   }
@@ -90,7 +93,7 @@ div {
   }
   #chicken {
     margin-right: 2%;
-}
+  }
 }
 
 /********** Small devices only **********/
@@ -107,8 +110,7 @@ div {
     position: relative;
     left: 72.2%;
   }
-  body{
+  body {
     padding: 0% 3% 0% 3%;
+  }
 }
-}
-
