@@ -11,7 +11,8 @@ body{
 }
 
 h1 {
-  margin-bottom: 4%;
+  font-size: 175%;
+  margin-bottom: 3.5%;
   margin-top: 2%;
   text-align: center;
 }
@@ -21,6 +22,7 @@ p {
     width: 30%;
     height: 10%;
     text-align: center;
+    font-size: 125%;
     margin-bottom: 1.7%;
     font-weight: bold;
 }
@@ -28,6 +30,7 @@ p {
 div {
     background-color: gainsboro;
     margin-bottom: 2.22%;
+    font-size: 100%;
 }
 
 .row {
@@ -48,9 +51,8 @@ div {
 }
 /********** Large devices only **********/
 @media (min-width: 992px) {
-  .col-lg-4 {
+  .lg {
     float: left;
-    position: relative;
     border: 1px solid black;
     width: 32%;
     padding: 0% 1% 1% 1%;
@@ -67,16 +69,15 @@ div {
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6, .col-md-12 {
+  .md-2, .md-1 {
     float: left;
-    position: relative;
     border: 1px solid black;
     padding: 0% 1% 1% 1%;
   }
-  .col-md-6 {
+  .md-2 {
     width: 49%;
   }
-  .col-md-12 {
+  .md-1 {
     width: 100%;
   }
   #chicken > p, #beef > p {
@@ -94,17 +95,17 @@ div {
 
 /********** Small devices only **********/
 @media (max-width: 767px) {
-  .col-sm-12 {
+  .sm-1 {
     float: left;
     position: relative;
     height: 30%;
     border: 1px solid black;
     width: 100%;
-    padding: 0% 1.5% 1.5% 1.5%;
+    padding: 0% 2% 2% 2%;
   }
   p {
     position: relative;
-    left: 71.5%;
+    left: 72.2%;
   }
   body{
     padding: 0% 3% 0% 3%;
