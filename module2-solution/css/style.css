@@ -1,0 +1,113 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+    padding: 0% 2.22% 0% 2.22%;
+    background-color: antiquewhite;
+}
+
+h1 {
+  margin-bottom: 4%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+p {
+    border: 1px solid black;
+    width: 30%;
+    height: 10%;
+    text-align: center;
+    margin-bottom: 1.7%;
+    font-weight: bold;
+}
+
+div {
+    background-color: gainsboro;
+    margin-bottom: 2.22%;
+}
+
+.row {
+    width: 100%;
+}
+
+#chicken > p {
+    background-color: peru;
+}
+
+#beef > p {
+    background-color: brown;
+    color: burlywood;
+}
+
+#sushi > p {
+    background-color: salmon;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    position: relative;
+    border: 1px solid black;
+    width: 32%;
+    padding: 0% 1% 1% 1%;
+  }
+  p {
+    position: relative;
+    left: 73.5%;
+  }
+
+  #chicken, #beef {
+    margin-right: 2%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    position: relative;
+    border: 1px solid black;
+    padding: 0% 1% 1% 1%;
+  }
+  .col-md-6 {
+    width: 49%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  #chicken > p, #beef > p {
+    position: relative;
+    left: 72.5%;
+  }
+  #sushi > p {
+    position: relative;
+    left: 71%;
+  }
+  #chicken {
+    margin-right: 2%;
+}
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    position: relative;
+    height: 30%;
+    border: 1px solid black;
+    width: 100%;
+    padding: 0% 1.5% 1.5% 1.5%;
+  }
+  p {
+    position: relative;
+    left: 71.5%;
+  }
+  body{
+    padding: 0% 3% 0% 3%;
+}
+}
+
