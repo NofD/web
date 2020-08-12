@@ -1,0 +1,114 @@
+body {
+  font-size: 20px;
+  font-weight: 500;
+  color: #705d91;
+
+  background-color: #f6e6eb;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  font-size: 3.5vw;
+  margin-bottom: 2.5vw;
+  text-shadow: 1px 1px 1px black;
+}
+
+#header-nav {
+  background-color: #c79fb4;
+  border-radius: 0;
+  border: 0;
+  height: 6vw;
+}
+
+.navbar-brand {
+  padding-top: 1vw;
+}
+
+.navbar-brand h1 {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  color: #705d91;
+  font-size: 4vw;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.9;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  background-color: #91c9bf;
+}
+
+#nav-list a {
+  color: #f6e6eb;
+  border: 0.5px solid #f6e6eb;
+}
+#nav-list a:hover {
+  background: #77a29c;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1.3px solid #705d91;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-bottom: 2vw;
+}
+
+.container-fluid {
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+
+.jumbotron {
+  border: 1.5px solid #77a29c;
+  background-color: #91c9bf;
+  font-size: 2.2vw;
+  padding: 1vw;
+  color: #463b5a;
+}
+
+#chicken {
+  color: #463b5a;
+  margin: 2% 0 2% 0;
+  text-shadow: 0 0 1px black;
+  font-size: 2.5vw;
+}
+
+/* ********* Extra small devices only ********* */
+
+@media (max-width: 767px) {
+  #header-nav {
+    background-color: #c79fb4;
+    border-radius: 0;
+    border: 0;
+    height: 8vw;
+  }
+  .navbar-brand {
+    padding-top: 1vw;
+    height: 7vw;
+  }
+  .navbar-brand h1 {
+    padding-top: 1vh;
+    font-size: 5vw;
+  }
+
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  .jumbotron {
+    padding: 0;
+  }
+}
